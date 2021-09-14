@@ -42,6 +42,7 @@ const Maker = ({ authService }) => {
       fileURL: null,
     },
   ]);
+
   const history = useHistory();
   const onLogout = () => {
     authService.logout();
@@ -53,11 +54,15 @@ const Maker = ({ authService }) => {
       }
     });
   });
+  const addCard = (card) => {
+    const update = [...cards, card];
+    setCards(update);
+  };
   return (
     <section className={styles.maker}>
       <Header onLogout={onLogout} />
       <div className={styles.content}>
-        <Editer cards={cards} />
+        <Editer cards={cards} addCard={addCard} />
         <Preview cards={cards} />
       </div>
       <Footer />
