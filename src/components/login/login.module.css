@@ -3,6 +3,10 @@
   width: 500px;
   height: 400px;
   background-color: makerWhite;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
 }
 .login {
   display: flex;

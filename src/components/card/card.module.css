@@ -1,0 +1,50 @@
+@value makerSlateblue, makerBlack, makerWhite from '../../common/color.css';
+
+.light {
+  background-color: makerWhite;
+  color: makerBlack;
+}
+.dark {
+  background-color: makerBlack;
+  color: makerWhite;
+}
+.item {
+  width: 100%;
+  border-radius: 20px;
+  margin-bottom: 10px;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+}
+.profile {
+  display: flex;
+  align-items: center;
+}
+.photo {
+  padding: 20px;
+}
+.photo img {
+  width: 10rem;
+  border-radius: 50rem;
+}
+.infomation {
+  margin-left: 20px;
+  padding: 15px 0;
+  width: 50%;
+}
+.infomation p {
+  font-size: 0.9rem;
+  margin: 0;
+  margin-bottom: 10px;
+}
+.infomation p:last-child {
+  margin-bottom: 0px;
+}
+.name {
+  margin: 0;
+  font-size: 24px;
+  margin-bottom: 4px;
+}
+.company {
+  padding-bottom: 10px;
+  display: block;
+  border-bottom: 2px solid makerSlateblue;
+}

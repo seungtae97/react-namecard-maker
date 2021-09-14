@@ -1,0 +1,8 @@
+@value makerSlateblue, makerBlack, makerWhite,makerLightGrey from '../../common/color.css';
+.button {
+  background-color: makerSlateblue;
+  color: makerWhite;
+  border: none;
+  outline: none;
+  width: 50%;
+}

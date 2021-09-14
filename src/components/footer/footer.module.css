@@ -1,0 +1,8 @@
+@value makerSlateblue, makerWhite from '../../common/color.css';
+.footer {
+  background-color: makerSlateblue;
+  width: 100%;
+  text-align: center;
+  color: makerWhite;
+  padding: 10px 0;
+}

@@ -1,0 +1,8 @@
+@value makerSlateblue, makerBlack, makerWhite,makerLightGrey from '../../common/color.css';
+
+.btn {
+  border: none;
+  outline: none;
+  padding: 1rem;
+  width: 50%;
+}

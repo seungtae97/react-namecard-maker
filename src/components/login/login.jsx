@@ -1,6 +1,7 @@
 import React, { useEffect } from "react";
 import { useHistory } from "react-router-dom";
 import Header from "../header/header";
+import Footer from "../footer/footer";
 import styles from "./login.module.css";
 
 const Login = ({ authService }) => {
@@ -38,6 +39,7 @@ const Login = ({ authService }) => {
           </li>
         </ul>
       </section>
+      <Footer />
     </section>
   );
 };
