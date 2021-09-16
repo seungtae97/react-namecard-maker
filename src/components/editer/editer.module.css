@@ -1,5 +1,5 @@
 @value makerSlateblue, makerBlack, makerWhite from '../../common/color.css';
-.editer {
+.editor {
   flex: 5 1;
   width: 100%;
   border-right: 1px solid makerSlateblue;
